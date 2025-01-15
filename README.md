@@ -17,6 +17,10 @@ I'm a software engineer with a focus on building web applications.
 * **Chrome Extension:** Developed a Chrome Extension to enhance my browsing experience.
 * **FormX:** Form X is an AI-powered form builder leveraging the Gemini API to create dynamic, customizable, and intelligent forms effortlessly.
 
+
+**📚 Current Project: AI-Powered Learning Management System (LMS)**
+
+
 **Learning:**
 
 * Deep diving into Redis and Go.
