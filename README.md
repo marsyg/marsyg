@@ -15,6 +15,7 @@ I'm a software engineer with a focus on building web applications.
 * **Chat App:** Built a real-time chat application using React, Node.js, and Socket.io.
 * **GenAI Project:** Currently working on a project leveraging the power of Generative AI.
 * **Chrome Extension:** Developed a Chrome Extension to enhance my browsing experience.
+* **FormX:** Form X is an AI-powered form builder leveraging the Gemini API to create dynamic, customizable, and intelligent forms effortlessly.
 
 **Learning:**
 
