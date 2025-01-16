@@ -27,6 +27,11 @@ I'm a software engineer with a focus on building web applications.
 * Exploring the possibilities of Next.js with TypeScript.
 
 I'm always eager to learn and contribute to exciting projects. Feel free to explore my repositories for more details!
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=dhruv0050&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=dhruv0050&theme=tokyonight&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=dhruv0050&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
 
 **Let's connect!** 
 
