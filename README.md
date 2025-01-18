@@ -8,6 +8,8 @@ I'm a software engineer with a focus on building web applications.
 
 * **Frontend:** React JS, Redux Toolkit, Next.js, TypeScript
 * **Backend:** Node.js, Go, Redis
+* **Database:** Neon , MongoDb,SQL
+* **ORM:** Prisma ,Drizzle
 * **Other:** Socket.io, Chrome Extensions
 
 **Projects:**
