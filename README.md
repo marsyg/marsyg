@@ -30,9 +30,9 @@ I'm a software engineer with a focus on building web applications.
 
 I'm always eager to learn and contribute to exciting projects. Feel free to explore my repositories for more details!
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=marsyg&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-stats.vercel.app/api?username=marsyg&theme=dark&show_icons=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=marsyg&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=marsyg&theme=tokyonight&show_icons=true)<br/>
+[![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=marsyg&theme=tokyonight&hide_total_contributions=flase&card_width=465)](https://git.io/streak-stats))<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=marsyg&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact&card_width=465)
 
 
 **Let's connect!** 
