@@ -24,3 +24,25 @@ BANNER=$(figlet -f slant "Maaz Ahmad")
 
 echo "Wrote $OUT_FILE:"
 cat "$OUT_FILE"
+
+# --- Sync README.md banner block if markers exist ---
+README="README.md"
+if [ -f "$README" ] && grep -q "ASCII-BANNER:START" "$README" && grep -q "ASCII-BANNER:END" "$README"; then
+  python3 - "$OUT_FILE" "$README" <<'PY'
+import sys
+banner_path, readme_path = sys.argv[1], sys.argv[2]
+with open(banner_path) as f:
+    banner = f.read().rstrip("\n")
+block = "<!-- ASCII-BANNER:START -->\n```\n" + banner + "\n```\n<!-- ASCII-BANNER:END -->"
+with open(readme_path) as f:
+    content = f.read()
+start = "<!-- ASCII-BANNER:START -->"
+end = "<!-- ASCII-BANNER:END -->"
+pre, _, rest = content.partition(start)
+_, _, post = rest.partition(end)
+new_content = pre + block + post
+with open(readme_path, "w") as f:
+    f.write(new_content)
+print(f"Updated {readme_path} banner block.")
+PY
+fi
