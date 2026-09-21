@@ -25,6 +25,9 @@ BANNER=$(figlet -f slant "Maaz Ahmad")
 echo "Wrote $OUT_FILE:"
 cat "$OUT_FILE"
 
+# --- Render animated SVG banner (typing effect) ---
+python3 scripts/generate-banner-svg.py "$OUT_FILE" banner.svg
+
 # --- Sync README.md banner block if markers exist ---
 README="README.md"
 if [ -f "$README" ] && grep -q "ASCII-BANNER:START" "$README" && grep -q "ASCII-BANNER:END" "$README"; then
